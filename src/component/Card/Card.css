@@ -1,0 +1,17 @@
+.main{
+    border-style: solid;
+    border-radius: 2px;
+    margin: 1.5em ;
+    font-size: 25px;
+    text-align: center;
+     
+}
+#top{
+    background-color: orange;
+    margin: .3em;
+}
+
+#buttom{
+    background-color: aliceblue;
+    margin: .3em;
+}

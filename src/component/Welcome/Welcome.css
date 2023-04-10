@@ -1,0 +1,8 @@
+.welcome_note{
+    position: absolute;
+    border-width: 2px;
+    border-style: solid;
+    width: 100%;
+    margin-top: -8px;
+    padding: .5rem;
+}
