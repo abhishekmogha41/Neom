@@ -27,7 +27,8 @@ const Navbar = () => {
                 <h1>Digital Locker</h1>
                 <div className="right">
                 <input type="text" className="input" placeholder="Search for document"/>
-                {/* language change */}
+                <button>Submit</button>
+                <button>language change</button>
                 </div>
                 
             </nav>

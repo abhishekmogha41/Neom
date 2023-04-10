@@ -1,15 +1,18 @@
-import Footer from './component/Footer/Footer';
-import Navbar from './component/Navbar/Navbar';
-import Sidemenu from './component/Sidemenu/Sidemenu';
-import Welcome from './component/Welcome/Welcome';
+import {BrowserRouter,Routes, Route} from "react-router-dom"
+import Home from "./component/Home";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Welcome/>
-      <Sidemenu/>
-      <Footer/>
+    <BrowserRouter>
+    <Routes>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/' element={<Home/>}/>
+     
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }

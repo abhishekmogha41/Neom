@@ -1,0 +1,7 @@
+.dashboard_main{
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    padding: 10px;
+    padding-top: 10px;
+}
