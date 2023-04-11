@@ -1,3 +1,11 @@
 .App{
     background-color: rgba(246, 246, 242, 0.849);
 }
+
+.left_comp{
+    width: 350px;
+}
+
+.left_comp :hover{
+    background-color: yellow;
+}

@@ -6,7 +6,7 @@ import './Dashboard.css'
 function Dashboard() {
   return (
     <>
-        <div className='dashboard_main'>
+        <div className='dashboard_main' >
             <Left/>
             <Right/>
         </div>

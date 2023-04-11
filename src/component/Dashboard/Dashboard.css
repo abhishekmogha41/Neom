@@ -4,4 +4,10 @@
     font-size: larger;
     padding: 10px;
     padding-top: 10px;
+    position: absolute;
+    
+        top: 15%;
+        left: 15%;
+        color: black;
+    
 }
